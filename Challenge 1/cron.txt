@@ -1,0 +1,5 @@
+#membuka crontab
+crontab -e
+
+#set script running daily jam 7:00 pagi
+0 7 * * * /home/main1.sh
